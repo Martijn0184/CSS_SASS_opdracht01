@@ -1,0 +1,24 @@
+.featured {
+  padding: 20px;
+}
+
+.featured .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured__image img {
+  width: 300px;
+}
+
+.featured__text {
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+}
+
+.featured__text p {
+  text-align: justify;
+  padding: 20px;
+  line-height: 1.4em;
+}

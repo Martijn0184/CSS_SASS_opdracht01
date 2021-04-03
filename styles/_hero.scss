@@ -1,0 +1,22 @@
+@import "_constants";
+
+$pad: 20px;
+$col2: #97d279;
+
+.hero {
+    padding: $pad;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: $col2;
+
+    &__img img {
+        display: block;
+        height: auto;
+        width: 15.5em;
+    }
+
+    &__text {
+        @include margins;
+    }
+}

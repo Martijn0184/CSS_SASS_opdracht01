@@ -1,0 +1,19 @@
+$pad: 20px;
+
+.contact {
+    padding: $pad;
+}
+
+.wrapper .contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form--wrapper,
+.contact-wrapper {
+    padding: $pad;
+}
+
+.copy--wrapper {
+    padding-left: $pad;
+}

@@ -1,0 +1,26 @@
+@import "_constants";
+
+$pad: 20px;
+
+.featured {
+    padding: $pad;
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__image img {
+        width: 300px;
+    }
+
+    &__text {
+        @include margins;
+
+        p {
+            text-align: justify;
+            padding: $pad;
+            line-height: 1.4em;
+        }
+    }
+}

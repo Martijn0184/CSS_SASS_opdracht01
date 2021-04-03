@@ -1,0 +1,6 @@
+$pad:20px;
+@mixin margins{
+max-width:700px;
+text-align: center;
+padding:$pad;
+}
